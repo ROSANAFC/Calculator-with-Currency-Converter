@@ -1,35 +1,33 @@
 # CALCULATOR 
 
-This template should help get you started developing with Vue 3 in Vite.
+Contexto del proyecto
+Requisitos mínimos Calculadora:
 
-## Recommended IDE Setup
+Mobil First
+La calculadora deberá poder realizar las operaciones básicas: suma, resta, multiplica, división
+Teclas obligatorias:
+· númericas del 0 al 9
+· suma, resta, multiplicar, división
+· signo "igual"
+· signo "." para la coma
+· CE (para resetear)
+​
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Requisitos mínimos Conversor de Divisas:
 
-## Customize configuration
+Deberá estar integrado en la calculadora
+Divisas a utilizar : Euro (€), Dólar ($), Yen (¥), Lempira Hondureño (Honduras)
+​
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Extra:
 
-## Project Setup
+Tecla M+ para poner en memoria el número actual (se deberá utilizar el local storage del navegador para almacenar la info)
+Tecla MR para recuperar el dato almacenado
+Tecla MC para borrar los datos guardados en memoria
+​
 
-```sh
-npm install
-```
+Stack a utilizar:
 
-### Compile and Hot-Reload for Development
+Se deberá realizar la aplicación con Vue 3 y realizar test unitarios con Vitest. Se podrá utilizar Bootstrap, Vuetify o cualquier otra libreria CSS.
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
+​
