@@ -1,10 +1,8 @@
 <script>
   import ButtonInput from './components/ButtonInput.vue'
-  import NavigatorMenu from './components/NavigatorMenu.vue'
-  import ExchangeValue from './components/ExchangeValue.vue'
   import CalculateDisplay from './components/CalculateDisplay.vue'
   export default {
-    components: { NavigatorMenu, ButtonInput, CalculateDisplay, ExchangeValue },
+    components: { ButtonInput, CalculateDisplay },
     name: 'App',
     data() {
       return {

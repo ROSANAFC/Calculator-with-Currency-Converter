@@ -20,10 +20,10 @@
   </template>
   
   <script>
-      // import TrashIcon from './icons/TrashIcon.vue'
+  
     export default {
       name: 'CalculateHistory',
-          // components: { TrashIcon },
+  
       props: {
         histroryOperation: Array,
         lastOperation: String,
@@ -45,7 +45,7 @@
       width: 11px;
     }
     *::-webkit-scrollbar-track {
-      background: #1e293;
+      background: #1e293b;
     }
     *::-webkit-scrollbar-thumb {
       background-color: #1e3a8a;
