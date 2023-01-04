@@ -1,8 +1,11 @@
 <script>
   import ButtonInput from './components/ButtonInput.vue'
   import CalculateDisplay from './components/CalculateDisplay.vue'
+  import ExchangeStructure from './components/ExchangeStructure.vue'
+  
+
   export default {
-    components: { ButtonInput, CalculateDisplay },
+    components: { ButtonInput, CalculateDisplay, ExchangeStructure },
     name: 'App',
     data() {
       return {
