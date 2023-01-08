@@ -1,17 +1,19 @@
 <script>
   import ButtonInput from './components/ButtonInput.vue'
   import CalculateDisplay from './components/CalculateDisplay.vue'
-  import ExchangeStructure from './components/ExchangeStructure.vue'
+  import CurrencyConverter from './components/CurrencyConverter.vue'
+  
   
 
   export default {
-    components: { ButtonInput, CalculateDisplay, ExchangeStructure },
+    components: { ButtonInput, CalculateDisplay, CurrencyConverter},
     name: 'App',
     data() {
       return {
         histroryOperation: [],
         currentCalculate: '0',
-        lastOperation: '0'
+        lastOperation: '0',
+        
       }
     },
     methods: {
@@ -140,6 +142,9 @@
   }
 </script>
 <template>
+
+<CurrencyConverter/>
+<div class="containerAll">
   <div class="h-screen w-full bg-slate-800 p-0 md:p-2">
   <div class="main-container">
     <navigator-menu :deleteHistory="deleteHistory" />
@@ -178,10 +183,18 @@
     </div>
   </div>
 </div>
+</div>
 
 </template>
 
 <style scoped lang="postcss">
+  .containerAll  {
+    background-color: black;
+   
+    justify-content:center;
+    align-items:center;
+    display:flex;
+  }
   .main-container {
     @apply m-auto w-full md:w-2/4 px-2 lg:w-1/4 rounded-none md:rounded-md ring-1 ring-blue-900 bg-slate-900 h-full flex flex-col;
   }
@@ -194,4 +207,6 @@
   .btn-secondary {
     @apply bg-blue-700 hover:bg-blue-800  hover:text-white;
   }
+
+
 </style>
