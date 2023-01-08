@@ -1,0 +1,37 @@
+/* @import './base.css'; */
+
+#app {
+  background-color: rgb(44, 44, 45);
+  width: 150px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  height: 20rem;
+  font-weight: normal;
+  border-radius: 5%;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(44, 44, 45);
+  transition: 0.4s;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/grey-technology-background_1035-9343.jpg?w=2000);
+}
+
+@media (min-width: 2560px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+ 
+}
+
