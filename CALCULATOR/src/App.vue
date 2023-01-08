@@ -3,7 +3,7 @@
   import CalculateDisplay from './components/CalculateDisplay.vue'
   import CurrencyConverter from './components/CurrencyConverter.vue'
   
-  
+  let título = alert ("Calculator with currency converter")
 
   export default {
     components: { ButtonInput, CalculateDisplay, CurrencyConverter},
@@ -142,7 +142,6 @@
   }
 </script>
 <template>
-
 <CurrencyConverter/>
 <div class="containerAll">
   <div class="h-screen w-full bg-slate-800 p-0 md:p-2">
@@ -189,14 +188,13 @@
 
 <style scoped lang="postcss">
   .containerAll  {
-  
     justify-content:center;
     align-items:center;
     display:flex;
   }
   .main-container {
     @apply m-auto w-full md:w-2/4 px-2 lg:w-1/4 rounded-none md:rounded-md ring-1 ring-blue-900 bg-slate-900 h-full flex flex-col;
-    background-color: rgb(141, 247, 247);
+    background-color: rgb(198, 201, 201);
     height: 100px;
     
   }
