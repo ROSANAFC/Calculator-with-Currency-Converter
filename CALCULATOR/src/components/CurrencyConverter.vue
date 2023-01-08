@@ -26,11 +26,17 @@
   })();
 </script>
 <style lang="css">
+
+span {
+  color: white;
+}
 .currencyConverterStructure  {
-    background-color:red;
     justify-content:center;
     align-items:center;
     display:flex;
 
+}
+a, #frLink1 {
+background-color: rgb(44, 44, 45);;
 }
 </style>

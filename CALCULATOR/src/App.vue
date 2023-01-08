@@ -189,17 +189,20 @@
 
 <style scoped lang="postcss">
   .containerAll  {
-    background-color: black;
-   
+  
     justify-content:center;
     align-items:center;
     display:flex;
   }
   .main-container {
     @apply m-auto w-full md:w-2/4 px-2 lg:w-1/4 rounded-none md:rounded-md ring-1 ring-blue-900 bg-slate-900 h-full flex flex-col;
+    background-color: rgb(141, 247, 247);
+    height: 100px;
+    
   }
   .button-wrapper {
     @apply flex-1 py-2 flex flex-col space-y-2 text-3xl font-bold select-none;
+    height: 100px;
   }
   .btn-primary {
     @apply bg-slate-800 hover:bg-slate-700 hover:text-blue-500;
